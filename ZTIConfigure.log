@@ -7,7 +7,7 @@
 <![LOG[Already connected to server JAIMWCMDT01.ad.infosys.com as that is where this script is running from.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[SUCCESS: 0: Unable to locate ZTIConfigure.xml, aborting]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[OSDTargetDriveCache was determined earlier : C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
-<![LOG[Property OSDTargetDriveCache is now = C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Property OSDTargetDriveCache is now = C:]LOG]!><time="17:53:30.      000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Property OSDisk is now = C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Found GetOSTargetDriveLetterEx: C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Looking for Sysprep.inf in C:\sysprep\Sysprep.inf]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
