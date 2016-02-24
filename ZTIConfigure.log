@@ -1,0 +1,96 @@
+<![LOG[Microsoft Deployment Toolkit version: 6.3.8298.1000]LOG]!><time="17:53:29.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[The task sequencer log is located at X:\WINDOWS\TEMP\SMSTSLog\SMSTS.LOG.  For task sequence failures, please consult this log.]LOG]!><time="17:53:29.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[SUCCESS: 0: Create object: Set oScriptClass = New ZTIConfigure]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[---------------- Initialization ----------------]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Validating connection to \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Mapping server share: \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Already connected to server JAIMWCMDT01.ad.infosys.com as that is where this script is running from.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[SUCCESS: 0: Unable to locate ZTIConfigure.xml, aborting]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[OSDTargetDriveCache was determined earlier : C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Property OSDTargetDriveCache is now = C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Property OSDisk is now = C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Found GetOSTargetDriveLetterEx: C:]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Looking for Sysprep.inf in C:\sysprep\Sysprep.inf]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[The sysprep.inf file was not found.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Property OSDAnswerFilePathSysprep is now = ]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[The unattend.txt file was not found.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Found unattend.xml at \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$\Control\5\Unattend.xml, will copy to G:\MININT\Unattend.xml]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Copied \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$\Control\5\Unattend.xml to G:\MININT\Unattend.xml]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Property OSDAnswerFilePath is now = G:\MININT\Unattend.xml]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[SUCCESS: 0: Looking for unattend AnswerFile]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Loaded G:\MININT\Unattend.xml]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for FullName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for OrgName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for ProductKey]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for MachineObjectOU]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for JoinWorkgroup]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for InputLocale]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Language]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for LanguageGroup]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for SystemLocale]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for TimeZone]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AutoLogon]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AutoLogonCount]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[<Message containing password has been suppressed>]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for BitsPerPel]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Xresolution]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Yresolution]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Vrefresh]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AreaCode]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for CountryCode]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Dialing]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for LongDistanceAccess]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Home_Page]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AutoMode]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AutoUsers]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[//unattend:settings[@pass="windowsPE"]/unattend:component[@name="Microsoft-Windows-Setup"]/unattend:UpgradeData/unattend:Upgrade not found in G:\MININT\Unattend.xml, unable to update.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with OSDComputerName=JAISU1269917D (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for ProductKey]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Removed parent of //unattend:settings[@pass="windowsPE"]/unattend:component[@name="Microsoft-Windows-Setup"]/unattend:UserData/unattend:ProductKey/unattend:Key from G:\MININT\Unattend.xml because the value was blank.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Removed //unattend:settings[@pass="specialize"]/unattend:component[@name="Microsoft-Windows-Shell-Setup"]/unattend:ProductKey from G:\MININT\Unattend.xml because the value was blank.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with JoinDomain=ad.infosys.com (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Removed //unattend:settings[@pass="specialize"]/unattend:component[@name="Microsoft-Windows-UnattendedJoin"]/unattend:Identification/unattend:JoinWorkgroup entry from G:\MININT\Unattend.xml]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Removed //unattend:settings[@pass="specialize"]/unattend:component[@name="Microsoft-Windows-UnattendedJoin"]/unattend:Identification/unattend:MachineObjectOU from G:\MININT\Unattend.xml because the value was blank.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[//unattend:settings[@pass="specialize"]/unattend:component[@name="Microsoft-Windows-UnattendedJoin"]/unattend:Identification/unattend:JoinWorkgroup not found in G:\MININT\Unattend.xml, unable to update.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with DomainAdmin=mdtdeploy (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with DomainAdminDomain=ad.infosys.com (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[<Message containing password has been suppressed>]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with InstallFromPath=\\jaimwcmdt01.ad.infosys.com\mdt2013u1$\Operating Systems\Win7x86\Win7x86.wim (value was .\Operating Systems\Win7x86\Win7x86.wim)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[//unattend:settings[@pass="windowsPE"]/unattend:component[@name="Microsoft-Windows-Setup"]/unattend:ImageInstall/unattend:OSImage/unattend:InstallFrom/unattend:MetaData[Key="/image/index"]/Value not found in G:\MININT\Unattend.xml, unable to update.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[//unattend:settings[@pass="windowsPE"]/unattend:component[@name="Microsoft-Windows-Setup"]/unattend:ImageInstall/unattend:OSImage/unattend:InstallFrom/unattend:MetaData[Key="/IMAGE/INDEX"]/Value not found in G:\MININT\Unattend.xml, unable to update.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[<Message containing password has been suppressed>]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[<Message containing password has been suppressed>]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[//unattend:settings[@pass="oobeSystem"]/unattend:component[@name="Microsoft-Windows-Shell-Setup"]/unattend:UserAccounts/unattend:LocalAccounts not found in G:\MININT\Unattend.xml, unable to update.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Organization]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for FullName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for BitsPerPel]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Xresolution]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Yresolution]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Vrefresh]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for AreaCode]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for CountryCode]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for LongDistanceAccess]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for LongDistanceAccess]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with TimeZoneName=India Standard Time (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with TimeZoneName=India Standard Time (value was )]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for KeyboardLocale]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for KeyboardLocale]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UserLocale=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UserLocale=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UserLocale=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UserLocale=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UILanguage=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with UILanguage=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with ImageLanguage001=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with ImageLanguage001=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with ImageLanguage001=en-US (value was en-US)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for Home_Page]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for OrgName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for OrgName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for FullName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[No value found for FullName]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with DestinationDisk=0 (value was 0)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Updated G:\MININT\Unattend.xml with DestinationPartition=2 (value was 1)]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[Rewrote G:\MININT\Unattend.xml with changes]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[ZTIConfigure COMPLETED.  Return Value = 0]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[ZTIConfigure processing completed successfully.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">

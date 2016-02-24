@@ -1,0 +1,303 @@
+<![LOG[Property LogPath is now = X:\MININT\SMSOSD\OSDLOGS]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Microsoft Deployment Toolkit version: 6.3.8298.1000]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[The task sequencer log is located at X:\WINDOWS\TEMP\SMSTSLog\SMSTS.LOG.  For task sequence failures, please consult this log.]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: 0: Create object: Set oScriptClass = New ZTIDiskpart]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Free Drive Letter(s): G: H: I: J: K: L: N: O: P: Q: R: T: U: V: W:]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify iDisk index is numeric: 0]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[New ZTIDisk : \\MININT-HS7BVNV\root\cimv2:Win32_DiskDrive.DeviceID="\\\\.\\PHYSICALDRIVE0"]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found Disk Index: 0   size: 500105249280]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Disk Index: 0   size: 500 GB]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Disk WMI Path : \\MININT-HS7BVNV\root\cimv2:Win32_DiskDrive.DeviceID="\\\\.\\PHYSICALDRIVE0"]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Disk WMI MOF : 
+instance of Win32_DiskDrive
+{
+	BytesPerSector = 512;
+	Capabilities = {3, 4, 10};
+	CapabilityDescriptions = {"Random Access", "Supports Writing", "SMART Notification"};
+	Caption = "WDC WD5000AAKX-221CA1 ATA Device";
+	ConfigManagerErrorCode = 0;
+	ConfigManagerUserConfig = FALSE;
+	CreationClassName = "Win32_DiskDrive";
+	Description = "Disk drive";
+	DeviceID = "\\\\.\\PHYSICALDRIVE0";
+	FirmwareRevision = "17.01H17";
+	Index = 0;
+	InterfaceType = "IDE";
+	Manufacturer = "(Standard disk drives)";
+	MediaLoaded = TRUE;
+	MediaType = "Fixed hard disk media";
+	Model = "WDC WD5000AAKX-221CA1 ATA Device";
+	Name = "\\\\.\\PHYSICALDRIVE0";
+	Partitions = 3;
+	PNPDeviceID = "IDE\\DISKWDC_WD5000AAKX-221CA1___________________17.01H17\\5&2129547B&0&0.0.0";
+	SCSIBus = 0;
+	SCSILogicalUnit = 0;
+	SCSIPort = 0;
+	SCSITargetId = 0;
+	SectorsPerTrack = 63;
+	SerialNumber = "     WD-WMAYUK074470";
+	Signature = 555868658;
+	Size = "500105249280";
+	Status = "OK";
+	SystemCreationClassName = "Win32_ComputerSystem";
+	SystemName = "MININT-HS7BVNV";
+	TotalCylinders = "60801";
+	TotalHeads = 255;
+	TotalSectors = "976768065";
+	TotalTracks = "15504255";
+	TracksPerCylinder = 255;
+};
+]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify there are partitions defined in this Task Sequence Step.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify First object is set.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[There is at least one partition marked [Bootable=TRUE] on this MBR disk 0  3]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[bCreateBootPartition = False]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Configuring Disk Alignment]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[No Disk Alignment variables specified, alignment not updated.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Update progress [ 10 ] : Preparing Disk 0 Partitions ...]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[About to run command: Diskpart.exe]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Command has been started (process ID 1340)]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + RESCAN]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + LIST DISK]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + LIST VOLUME]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM Move Drive C: to a diffrent drive letter.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Select volume C:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify There are Free drives available.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Pop next Drive Letter: [W:]]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Assign Letter=W:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + SELECT DISK 0]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + CLEAN]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + CONVERT MBR NOERR]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Update progress [ 10 ] : Preparing partition 0...]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM --------------]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM Partition 0]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify Partition size is Numeric: 500]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Partition(0): 500 MB]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Size:  [ isEmpty = False] 500]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + CREATE PARTITION Primary Size=500]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Active]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify There are Free drives available.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Pop next Drive Letter: [V:]]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Assign letter=V:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify NTFS Label is less than 33 chars.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + FORMAT QUICK FS=NTFS LABEL="System"]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL VOLUME]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL PARTITION]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Update progress [ 13 ] : Preparing partition 1...]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM --------------]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM Partition 1]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify Partition size is Numeric: 100]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Partition(1): 100 GB]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Size:  [ isEmpty = False] 100000]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + CREATE PARTITION Primary Size=100000]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Do not mark a 2nd partition active.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify There are Free drives available.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Pop next Drive Letter: [C:]]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Assign letter=C:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property OSDisk is now = C:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify NTFS Label is less than 33 chars.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + FORMAT QUICK FS=NTFS LABEL="OSDisk"]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL VOLUME]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL PARTITION]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Update progress [ 16 ] : Preparing partition 2...]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM --------------]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + REM Partition 2]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify Partition size is Numeric: 100]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Partition(2): 100 %]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Size is Empty: Expand to remaining space.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[   Size:  [ isEmpty = True] ]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + CREATE PARTITION Primary]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Do not mark a 2nd partition active.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify There are Free drives available.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Pop next Drive Letter: [G:]]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + Assign letter=G:]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify NTFS Label is less than 33 chars.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + FORMAT QUICK FS=NTFS LABEL="DATA"]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL VOLUME]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + DETAIL PARTITION]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + LIST PARTITION]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + LIST VOLUME]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console + EXIT]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[ZTI Heartbeat: command has been running for 0 minutes (process ID 1340)]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Microsoft DiskPart version 10.0.10240]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Copyright (C) 1999-2013 Microsoft Corporation.]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > On computer: MININT-HS7BVNV]LOG]!><time="17:53:16.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:18.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Please wait while DiskPart scans your configuration...]LOG]!><time="17:53:18.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart has finished scanning your configuration.]LOG]!><time="17:53:18.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:18.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Disk ###  Status         Size     Free     Dyn  Gpt]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   --------  -------------  -------  -------  ---  ---]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Disk 0    Online          465 GB      0 B         ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume ###  Ltr  Label        Fs     Type        Size     Status     Info]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   ----------  ---  -----------  -----  ----------  -------  ---------  --------]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 0     F                       DVD-ROM         0 B  No Media           ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 1     C   System       NTFS   Partition    500 MB  Healthy            ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 2     D   OSDisk       NTFS   Partition     97 GB  Healthy            ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 3     E   DATA         NTFS   Partition    367 GB  Healthy            ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume 1 is the selected volume.]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully assigned the drive letter or mount point.]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Disk 0 is now the selected disk.]LOG]!><time="17:53:19.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart succeeded in cleaning the disk.]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully converted the selected disk to MBR format.]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart succeeded in creating the specified partition.]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:21.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart marked the current partition as active.]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully assigned the drive letter or mount point.]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >     0 percent completed    0 percent completed  100 percent completed]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully formatted the volume.]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Disk ###  Status         Size     Free     Dyn  Gpt]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   --------  -------------  -------  -------  ---  ---]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Disk 0    Online          465 GB   465 GB         ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Read-only              : No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden                 : No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > No Default Drive Letter: No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Shadow Copy            : No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offline                : No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > BitLocker Encrypted    : No]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Installable            : Yes]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Capacity        :  499 MB]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Free Space      :  483 MB]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Partition 1]LOG]!><time="17:53:22.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Type  : 07]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden: No]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Active: Yes]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offset in Bytes: 1048576]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume ###  Ltr  Label        Fs     Type        Size     Status     Info]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   ----------  ---  -----------  -----  ----------  -------  ---------  --------]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Volume 1     V   System       NTFS   Partition    500 MB  Healthy            ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart succeeded in creating the specified partition.]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully assigned the drive letter or mount point.]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:23.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >     0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed  100 percent completed]LOG]!><time="17:53:24.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > ]LOG]!><time="17:53:24.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully formatted the volume.]LOG]!><time="17:53:24.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Disk ###  Status         Size     Free     Dyn  Gpt]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   --------  -------------  -------  -------  ---  ---]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Disk 0    Online          465 GB   367 GB         ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Read-only              : No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden                 : No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > No Default Drive Letter: No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Shadow Copy            : No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offline                : No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > BitLocker Encrypted    : No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Installable            : Yes]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Capacity        :   97 GB]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Free Space      :   97 GB]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Partition 2]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Type  : 07]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden: No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Active: No]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offset in Bytes: 525336576]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume ###  Ltr  Label        Fs     Type        Size     Status     Info]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   ----------  ---  -----------  -----  ----------  -------  ---------  --------]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Volume 2     C   OSDisk       NTFS   Partition     97 GB  Healthy            ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart succeeded in creating the specified partition.]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully assigned the drive letter or mount point.]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:25.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >     0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed  100 percent completed]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DiskPart successfully formatted the volume.]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Disk ###  Status         Size     Free     Dyn  Gpt]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   --------  -------------  -------  -------  ---  ---]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Disk 0    Online          465 GB      0 B         ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Read-only              : No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden                 : No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > No Default Drive Letter: No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Shadow Copy            : No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offline                : No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > BitLocker Encrypted    : No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Installable            : Yes]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Capacity        :  367 GB]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Volume Free Space      :  367 GB]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Partition 3]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Type  : 07]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Hidden: No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Active: No]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Offset in Bytes: 105382936576]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume ###  Ltr  Label        Fs     Type        Size     Status     Info]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   ----------  ---  -----------  -----  ----------  -------  ---------  --------]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Volume 3     G   DATA         NTFS   Partition    367 GB  Healthy            ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Partition ###  Type              Size     Offset]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   -------------  ----------------  -------  -------]LOG]!><time="17:53:27.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Partition 1    Primary            500 MB  1024 KB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Partition 2    Primary             97 GB   501 MB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Partition 3    Primary            367 GB    98 GB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume ###  Ltr  Label        Fs     Type        Size     Status     Info]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   ----------  ---  -----------  -----  ----------  -------  ---------  --------]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 0     F                       DVD-ROM         0 B  No Media           ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 1     V   System       NTFS   Partition    500 MB  Healthy            ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console >   Volume 2     C   OSDisk       NTFS   Partition     97 GB  Healthy            ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > * Volume 3     G   DATA         NTFS   Partition    367 GB  Healthy            ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > DISKPART> ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[  Console > Leaving DiskPart...]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Return code from command = 0]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[DestinationOSInstallType = BYDISKPARTITION]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found: DestinationDisk: 0]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found: DestinationPartition: 1]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify First object is set.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[New ZTIDiskPartition : \\MININT-HS7BVNV\root\cimv2:Win32_DiskPartition.DeviceID="Disk #0, Partition #0"    \\MININT-HS7BVNV\root\cimv2:Win32_LogicalDisk.DeviceID="V:"]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Disk Size : 524 MB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Min Size : 15 GB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Partition is set too small, assume BDEPartition and recover.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify First object is set.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[New ZTIDiskPartition : \\MININT-HS7BVNV\root\cimv2:Win32_DiskPartition.DeviceID="Disk #0, Partition #1"    \\MININT-HS7BVNV\root\cimv2:Win32_LogicalDisk.DeviceID="C:"]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Disk Size : 104 GB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Min Size : 15 GB]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property DestinationPartition is now = 2]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property OSDTargetDriveCache is now = C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property OSDisk is now = C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Set the Tag variable: TargetPartitionIdentifier]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property TargetPartitionIdentifier is now = ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property TargetPartitionIdentifier is now = SELECT * FROM Win32_LogicalDisk WHERE Size = '104857595904' and VolumeName = 'OSDisk' and VolumeSerialNumber = 'C8FE27FA']LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found GetOSTargetDriveLetterEx: C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify First object is set.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[New ZTIDiskPartition : \\MININT-HS7BVNV\root\cimv2:Win32_LogicalDisk.DeviceID="C:"    \\MININT-HS7BVNV\root\cimv2:Win32_DiskPartition.DeviceID="Disk #0, Partition #1"]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property DestinationDisk is now = 0]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property DestinationPartition is now = 2]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[DestinationDisk: 0]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Assume this disk is the destination Disk, and verify.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[TargetPartitionIdentifier is set, find disk: SELECT * FROM Win32_LogicalDisk WHERE Size = '104857595904' and VolumeName = 'OSDisk' and VolumeSerialNumber = 'C8FE27FA']LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Search for Drive: TargetPartitionIdentifier  SELECT * FROM Win32_LogicalDisk WHERE Size = '104857595904' and VolumeName = 'OSDisk' and VolumeSerialNumber = 'C8FE27FA']LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found Drive: C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property OSDTargetDriveCache is now = C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property OSDisk is now = C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found GetOSTargetDriveLetterEx: C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Target Drive Letter Found: C:]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Found OS Drive: C   0]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Update progress [ 90 ] : Verify Disk C: ... ]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify First object is set.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[New ZTIDiskPartition : \\MININT-HS7BVNV\root\cimv2:Win32_LogicalDisk.DeviceID="C:"    \\MININT-HS7BVNV\root\cimv2:Win32_DiskPartition.DeviceID="Disk #0, Partition #1"]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[SUCCESS: True: Verify drive object is created]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Check Disk [0] <> [0] OK to skip.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[####### NOTE:  If this is one of the  last lines in your BDD.log file, check C: for the most up to date bdd.log!!!]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[ZTIDiskpart processing completed successfully.]LOG]!><time="17:53:28.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
