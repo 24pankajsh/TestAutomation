@@ -1,7 +1,9 @@
 <![LOG[Microsoft Deployment Toolkit version: 6.3.8298.1000]LOG]!><time="17:53:29.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[The task sequencer log is located at X:\WINDOWS\TEMP\SMSTSLog\SMSTS.LOG.  For task sequence failures, please consult this log.]LOG]!><time="17:53:29.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[SUCCESS: 0: Create object: Set oScriptClass = New ZTIConfigure]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
-<![LOG[---------------- Initialization ----------------]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
+<![LOG[---------------- Initial
+
+ization ----------------]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Validating connection to \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Mapping server share: \\JAIMWCMDT01.ad.infosys.com\mdt2013u1$]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
 <![LOG[Already connected to server JAIMWCMDT01.ad.infosys.com as that is where this script is running from.]LOG]!><time="17:53:30.000+000" date="02-10-2016" component="ZTIConfigure" context="" type="1" thread="" file="ZTIConfigure">
