@@ -1,4 +1,7 @@
-<![LOG[Property LogPath is now = X:\MININT\SMSOSD\OSDLOGS]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
+<![LOG[Property LogPath is 
+
+
+now = X:\MININT\SMSOSD\OSDLOGS]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
 <![LOG[Microsoft Deployment Toolkit version: 6.3.8298.1000]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
 <![LOG[The task sequencer log is located at X:\WINDOWS\TEMP\SMSTSLog\SMSTS.LOG.  For task sequence failures, please consult this log.]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
 <![LOG[SUCCESS: 0: Create object: Set oScriptClass = New ZTIDiskpart]LOG]!><time="17:53:15.000+000" date="02-10-2016" component="ZTIDiskpart" context="" type="1" thread="" file="ZTIDiskpart">
